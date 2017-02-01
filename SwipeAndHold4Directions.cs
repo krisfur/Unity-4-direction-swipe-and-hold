@@ -34,7 +34,7 @@ public class SwipeAndHold4Directions : MonoBehaviour
     {
         foreach (Touch FingerTouch in Input.touches) //get touches
         {
-            //do things when touch ha just begun
+            //do things when touch has just begun
             if (FingerTouch.phase == TouchPhase.Began)
             {
                 fingerInitialPositionX = FingerTouch.position.x; //get initial X position of touch
